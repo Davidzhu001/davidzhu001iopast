@@ -18,16 +18,34 @@ categories:
  第三如果掌握了，一定要尝试的去尽量的弄懂自己做的是什么。
 
 
- 1.swift的 **Constants** 和 **Variables**
+
+在学习这一课之前，我们需要理解下这些概念:
+
+1.swift的 **Constants** 和 **Variables**
+
+{% highlight swift %}
+let firstName = 'Edith'
+var age = 19
+{% endhighlight %}
 
 
- **Constants**  ＝ 常量
- 就是一个不会变的量 一单设定了，就不能更改。
- 比如我想设置个常量我叫他 ｀｀firstName｀｀, 我们可以在｀｀firstName｀｀前面加上一个这样的 声称 let
- 写成
- {% highlight swift %}
- let firstName = 'Edith'
- {% endhighlight %}
+
+2.swift的 **Strings, Characters and Integer**
 
 
-Provides the method of using WKScriptMessage protocols.
+{% highlight swift %}
+let  strings = '汉字'
+let number = 19
+{% endhighlight %}
+## 注意 数字 19 跟 字符 “19” 是不同的。如果不加引号输入数字，系统会默认这个量为Integer，如果加引号是个String.
+## 数字可以使用 运算方法（＋，－，＊，／）
+## 字符有自己独特的运算方法。
+
+
+3.swift的 **Basic Operators**
+##注意 ＝ 不是我们使用的 等于 符号，而是 定值
+## ＝＝ 是我们使用的等于
+
+
+4.swift的 ** if statements**
+#判定方法
