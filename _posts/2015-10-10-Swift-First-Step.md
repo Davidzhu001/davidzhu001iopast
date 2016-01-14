@@ -66,21 +66,19 @@ Guessing Game 的设计
 ##需要
 
 > — 2 labels
-
+>
 > > 显示问题
-
 > > 显示对错
 >
 > － 1 input field
-
 > > 用户输入答案的
 >
-
 > － 1 button
+>
 > > 用户提交答案后验证对错的。
 >
-
 > 2  constants
+>
 > > 问题
 > > 答案
 >
