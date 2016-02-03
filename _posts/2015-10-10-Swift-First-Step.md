@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swift－猜字游戏
+title: Swift－猜字
 categories:
 - swift
 ---
